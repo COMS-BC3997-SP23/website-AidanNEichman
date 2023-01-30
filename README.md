@@ -23,6 +23,33 @@ scikit-learn, Tensorflow.
 - Use the model to predict rest periods for players on a given schedule of
 opponents.
 
+
+Here is a sample schema:
+
+Data Collection:
+ - Gather data on NBA players and teams from publicly available sources such as NBA.com or other sports data APIs.
+ - Store the data in a database or CSV file for easy access.
+ - The data should include information on player statistics, games played, injury history, and rest schedules.
+ - Clean and pre-process the data to remove any missing values or outliers.
+Data Analysis:
+ - Analyze the data using Python libraries such as Pandas, Matplotlib, and Seaborn to understand the relationships between player statistics, rest schedules, and injury history.
+ - Identify any correlations or patterns in the data that may be useful in optimizing rest schedules for players.
+ - Visualize the data to gain insights into player performance and rest schedules.
+Machine Learning Model Development:
+ - Use the processed data to train a machine learning model in Python using libraries such as Scikit-learn or TensorFlow.
+ - The model should be a supervised learning model that predicts the optimal rest schedules for players based on their performance, injury history, and other factors.
+ - Evaluate the performance of the model using metrics such as accuracy, precision, recall, and F1 score.
+Model Deployment:
+ - Integrate the trained model into a C++ application to allow for real-time optimization of rest schedules for players.
+ - The C++ application should provide a user-friendly interface for inputting player data and receiving recommended rest schedules.
+ - The C++ application should also be able to communicate with the database or file storage to retrieve and update player data.
+Ongoing Maintenance:
+ - Continuously monitor the performance of the model and make updates as needed.
+ - Gather feedback from stakeholders, including coaches, trainers, and players, and incorporate their feedback into the model.
+ - Continuously update the database with new player and team data to keep the model up-to-date.
+
+This schema outlines the steps necessary to build a machine learning model that optimizes rest schedules for NBA players. With the right data and proper implementation, this model can help teams improve player performance, reduce injury risk, and maximize their overall success.
+
 # Expected Outcomes and Measurables:
 Because mindful rest schedules are a newer idea in basketball, there is not a lot of previously-recorded rest schedules through which I can see if my model is on the right track. However, there does exist some data within the past 5-6 years that can be used as a baseline comparison for the model. I am still figuring out how I can test the optimization aspect of the model (which will hoepfully come to me as I work through more strictly defining the model as a whole). Otherwise, I think that success would look like having a model that gather, interacts with, and utilizes all of the different categorical data in the game of basketball.
 
