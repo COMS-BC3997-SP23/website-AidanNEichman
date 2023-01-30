@@ -17,7 +17,7 @@ This project will benefit the target audience by providing them with data-driven
   predict optimal rest periods for each player.
 - This model will be based on Machine learning algorithms like Random Forest,
   XGBoost, Neural Network and will be implemented using libraries like
-scikit-learn, Tensorflow.
+Scikit-learn and Tensorflow.
 - Evaluate the performance of the model using metrics such as accuracy and
   precision.
 - Use the model to predict rest periods for players on a given schedule of
@@ -31,18 +31,22 @@ Data Collection:
  - Store the data in a database or CSV file for easy access.
  - The data should include information on player statistics, games played, injury history, and rest schedules.
  - Clean and pre-process the data to remove any missing values or outliers.
+ 
 Data Analysis:
  - Analyze the data using Python libraries such as Pandas, Matplotlib, and Seaborn to understand the relationships between player statistics, rest schedules, and injury history.
  - Identify any correlations or patterns in the data that may be useful in optimizing rest schedules for players.
  - Visualize the data to gain insights into player performance and rest schedules.
+ 
 Machine Learning Model Development:
  - Use the processed data to train a machine learning model in Python using libraries such as Scikit-learn or TensorFlow.
  - The model should be a supervised learning model that predicts the optimal rest schedules for players based on their performance, injury history, and other factors.
  - Evaluate the performance of the model using metrics such as accuracy, precision, recall, and F1 score.
+ 
 Model Deployment:
  - Integrate the trained model into a C++ application to allow for real-time optimization of rest schedules for players.
  - The C++ application should provide a user-friendly interface for inputting player data and receiving recommended rest schedules.
  - The C++ application should also be able to communicate with the database or file storage to retrieve and update player data.
+ 
 Ongoing Maintenance:
  - Continuously monitor the performance of the model and make updates as needed.
  - Gather feedback from stakeholders, including coaches, trainers, and players, and incorporate their feedback into the model.
