@@ -40,4 +40,13 @@ Because mindful rest schedules are a newer idea in basketball, there is not a lo
 - Model evaluation and improvement: 2 weeks
 
 # Background Materials/Resources:
-- 
+For Tangible Statistics:
+- https://www.nbastuffer.com/2022-2023-nba-rest-days-stats/ (NBA per team rest day stats)
+- https://www.nbastuffer.com/2022-2023-nba-player-stats/ (NBA per player stats)
+- https://www.nba.com/stats/players/boxscores-traditional (NBA per game, per player advanced box scores)
+
+For Rest Day Background Research:
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107769/ (Injury Risk in the NBA)
+- https://journals.sagepub.com/doi/pdf/10.1177/23259671221121116 (Condensed Schedule Argument)
+- https://repository.ihu.edu.gr/xmlui/bitstream/handle/11544/29991/Georgios%20Papageorgiou%20Dissertation%20Data%20Mining%20in%20Sports.pdf?sequence=1 (Data Mining for Player Performance Predictions)
+- https://www.tandfonline.com/doi/epdf/10.1080/24751839.2021.1977066?needAccess=true&role=button (ML in NBA Predictions)
