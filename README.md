@@ -69,6 +69,7 @@ Because mindful rest schedules are a newer idea in basketball, there is not a lo
 - Data collection and cleaning: 3 weeks
 - Model development and debugging: 5 weeks
 - Model evaluation and improvement: 2 weeks
+- Deployment: 3 weeks
 
 # Background Materials/Resources:
 For Tangible Statistics:
