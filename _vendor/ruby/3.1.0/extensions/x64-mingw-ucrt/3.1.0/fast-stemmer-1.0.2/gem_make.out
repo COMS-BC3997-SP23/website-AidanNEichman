@@ -1,0 +1,17 @@
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/fast-stemmer-1.0.2/ext
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-n42cuv sitelibdir\=./.gem.20230131-5596-n42cuv clean
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-n42cuv sitelibdir\=./.gem.20230131-5596-n42cuv
+generating stemmer-x64-mingw-ucrt.def
+compiling porter.c
+compiling porter_wrap.c
+linking shared-object stemmer.so
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/fast-stemmer-1.0.2/ext
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-n42cuv sitelibdir\=./.gem.20230131-5596-n42cuv install
+/usr/bin/install -c -m 0755 stemmer.so ./.gem.20230131-5596-n42cuv

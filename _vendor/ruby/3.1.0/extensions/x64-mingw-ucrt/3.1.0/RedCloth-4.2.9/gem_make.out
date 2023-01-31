@@ -1,0 +1,23 @@
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+checking for main() in -lc... no
+creating Makefile
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-ct6r1f sitelibdir\=./.gem.20230131-5596-ct6r1f clean
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-ct6r1f sitelibdir\=./.gem.20230131-5596-ct6r1f
+generating redcloth_scan-x64-mingw-ucrt.def
+compiling redcloth_attributes.c
+ragel/redcloth_attributes.c.rl: In function 'redcloth_attribute_parser':
+ragel/redcloth_attributes.c.rl:27:11: warning: variable 'act' set but not used [-Wunused-but-set-variable]
+compiling redcloth_inline.c
+ragel/redcloth_inline.c.rl: In function 'red_block':
+ragel/redcloth_inline.c.rl:100:9: warning: variable 'attr_regs' set but not used [-Wunused-but-set-variable]
+compiling redcloth_scan.c
+linking shared-object redcloth_scan.so
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/RedCloth-4.2.9/ext/redcloth_scan
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-ct6r1f sitelibdir\=./.gem.20230131-5596-ct6r1f install
+/usr/bin/install -c -m 0755 redcloth_scan.so ./.gem.20230131-5596-ct6r1f

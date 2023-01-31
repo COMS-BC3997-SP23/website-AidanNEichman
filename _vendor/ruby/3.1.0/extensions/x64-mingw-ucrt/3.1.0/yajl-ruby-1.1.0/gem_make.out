@@ -1,0 +1,41 @@
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/yajl-ruby-1.1.0/ext/yajl
+C:/Ruby31-x64/bin/ruby.exe -I C:/Ruby31-x64/lib/ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/yajl-ruby-1.1.0/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-3ylqrn sitelibdir\=./.gem.20230131-5596-3ylqrn clean
+
+current directory: C:/Users/12697/test/website-AidanNEichman/_vendor/ruby/3.1.0/gems/yajl-ruby-1.1.0/ext/yajl
+make DESTDIR\= sitearchdir\=./.gem.20230131-5596-3ylqrn sitelibdir\=./.gem.20230131-5596-3ylqrn
+generating yajl-x64-mingw-ucrt.def
+compiling yajl.c
+compiling yajl_alloc.c
+compiling yajl_buf.c
+compiling yajl_encode.c
+compiling yajl_ext.c
+yajl_ext.c: In function 'yajl_encode_part':
+yajl_ext.c:117:21: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+  117 |     yajl_gen_status status;
+      |                     ^~~~~~
+In file included from C:/Ruby31-x64/include/ruby-3.1.0/ruby/internal/dosish.h:38,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/defines.h:78,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby/ruby.h:25,
+                 from C:/Ruby31-x64/include/ruby-3.1.0/ruby.h:38,
+                 from yajl_ext.h:32,
+                 from yajl_ext.c:24:
+yajl_ext.c: In function 'rb_yajl_parser_parse':
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/win32.h:195:14: warning: variable 'stati128' set but not used [-Wunused-but-set-variable]
+  195 | #define stat stati128
+      |              ^~~~~~~~
+C:/Ruby31-x64/include/ruby-3.1.0/ruby/win32.h:195:14: note: in definition of macro 'stat'
+  195 | #define stat stati128
+      |              ^~~~~~~~
+yajl_ext.c: In function 'rb_yajl_encoder_enable_json_gem_ext':
+yajl_ext.c:852:22: error: 'rb_cFixnum' undeclared (first use in this function); did you mean 'rb_cFile'?
+  852 |     rb_define_method(rb_cFixnum, "to_json", rb_yajl_json_ext_fixnum_to_json, -1);
+      |                      ^~~~~~~~~~
+      |                      rb_cFile
+yajl_ext.c:852:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Makefile:247: yajl_ext.o] Error 1
+
+make failed, exit code 2
