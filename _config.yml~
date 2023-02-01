@@ -1,20 +1,17 @@
-title: Hello, world! I'm David Freeman
+title: Hello, world! I'm Aidan Eichman, and this is my project!
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Optimization of Big-Contract NBA Player Rest Schedules Using Supervised ML
 permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://AidanNEichman.github.io" # the subpath of your site, e.g. /blog
+url: "http://AidanNEichman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+author: Aidan Eichman # add your name
+about-author: I am a software engineer who enjoys learning more about the intersection of sports and AI.  # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-github: AidanNEichman # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: # add your Email address
 

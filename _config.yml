@@ -2,8 +2,8 @@ title: Hello, world! I'm Aidan Eichman, and this is my project!
 description: > # this means to ignore newlines until "baseurl:"
   Optimization of Big-Contract NBA Player Rest Schedules Using Supervised ML
 permalink: ':title/'
-baseurl: "https://AidanNEichman.github.io" # the subpath of your site, e.g. /blog
-url: "http://AidanNEichman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/website-AidanNEichman" # the subpath of your site, e.g. /blog
+url: "http://COMS-BC3997-SP23.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
