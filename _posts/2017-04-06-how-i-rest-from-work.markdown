@@ -1,30 +1,90 @@
 ---
 layout: post
-title: If this changed, it worked!
-date: 2017-09-12 13:32:20 +0300
+title: Project Proposal 
+date: 2023-01-27 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Holidays, Hawaii]
 ---
-Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo park gentrify. Stumptown brooklyn godard tumeric ethical. Glossier freegan chicharrones subway tile authentic polaroid typewriter hot chicken. Thundercats small batch heirloom meggings.
 
-## Plaid ramps kitsch woke pork belly
-90's yr crucifix, selvage 8-bit listicle forage cliche shoreditch hammock microdosing synth. Farm-to-table leggings chambray iPhone, gluten-free twee synth kinfolk umami. Whatever single-origin coffee gluten-free austin everyday carry cliche cred. Plaid ramps kitsch woke pork belly organic. Trust fund whatever coloring book kombucha brooklyn. Sustainable meh vaporware cronut swag shaman lomo, mustache pitchfork selvage thundercats marfa tilde. Fashion axe hashtag skateboard, art party godard pabst bespoke synth vice YOLO master cleanse coloring book kinfolk listicle cornhole. Try-hard mixtape umami fanny pack man bun gastropub franzen tbh. Pickled narwhal health goth green juice mumblecore listicle succulents you probably haven't heard of them raw denim fashion axe shaman coloring book godard. Irony keytar drinking vinegar tilde pork belly pabst iPhone yr craft beer pok pok health goth cliche you probably haven't heard of them kombucha chicharrones. Direct trade hella roof party chia. Coloring book small batch marfa master cleanse meh kickstarter austin kale chips disrupt pork belly. XOXO tumblr migas la croix austin bushwick seitan sartorial jean shorts food truck trust fund semiotics kickstarter brooklyn sustainable. Umami knausgaard mixtape marfa. Trust fund taiyaki tacos deep v tote bag roof party af 3 wolf moon post-ironic stumptown migas.
+## Project: "Optimizing Player Rest in Basketball using Machine Learning"
 
-![I and My friends]({{site.baseurl}}/assets/img/we-in-rest.jpg)
+## Introduction (Problem Idenitification & Target Audience): 
+The basketball industry is highly competitive and the performance of individual players plays a crucial role in the success of a team. One important aspect of player performance is proper rest and recovery, especially for the big contract players who are relied upon to deliver on the field. The problem this project addresses is optimizing rest schedules for these players to ensure they perform at their best and reduce the risk of injury.
 
-Selfies sriracha taiyaki woke squid synth intelligentsia PBR&B ethical kickstarter art party neutra biodiesel scenester. Health goth kogi VHS fashion axe glossier disrupt, vegan quinoa. Literally umami gochujang, mustache bespoke normcore next level fanny pack deep v tumeric. Shaman vegan affogato chambray. Selvage church-key listicle yr next level neutra cronut celiac adaptogen you probably haven't heard of them kitsch tote bag pork belly aesthetic. Succulents wolf stumptown art party poutine. Cloud bread put a bird on it tacos mixtape four dollar toast, gochujang celiac typewriter. Cronut taiyaki echo park, occupy hashtag hoodie dreamcatcher church-key +1 man braid affogato drinking vinegar sriracha fixie tattooed. Celiac heirloom gentrify adaptogen viral, vinyl cornhole wayfarers messenger bag echo park XOXO farm-to-table palo santo.
+The target audience for this project is the coaching and management staff of basketball teams, specifically those teams with high-priced and high-performing players. These individuals are responsible for making decisions about player schedules and need accurate and reliable information to do so.
 
->Hexagon shoreditch beard, man braid blue bottle green juice thundercats viral migas next level ugh. Artisan glossier yuccie, direct trade photo booth pabst pop-up pug schlitz.
+This project will benefit the target audience by providing them with data-driven recommendations for rest schedules that maximize player performance and reduce the risk of injury. By considering factors such as previous workload, injury history, and performance data, the project will give teams a competitive edge and help ensure their star players remain healthy and effective throughout the season. In addition, by reducing the risk of injury, teams can protect their investments in high-priced players and minimize the financial and performance costs of injured players. Ultimately, this project will help teams win more games and achieve greater success.
 
-Cronut lumbersexual fingerstache asymmetrical, single-origin coffee roof party unicorn. Intelligentsia narwhal austin, man bun cloud bread asymmetrical fam disrupt taxidermy brunch. Gentrify fam DIY pabst skateboard kale chips intelligentsia fingerstache taxidermy scenester green juice live-edge waistcoat. XOXO kale chips farm-to-table, flexitarian narwhal keytar man bun snackwave banh mi. Semiotics pickled taiyaki cliche cold-pressed. Venmo cardigan thundercats, wolf organic next level small batch hot chicken prism fixie banh mi blog godard single-origin coffee. Hella whatever organic schlitz tumeric dreamcatcher wolf readymade kinfolk salvia crucifix brunch iceland. Literally meditation four loko trust fund. Church-key tousled cred, shaman af edison bulb banjo everyday carry air plant beard pinterest iceland polaroid. Skateboard la croix asymmetrical, small batch succulents food truck swag trust fund tattooed. Retro hashtag subway tile, crucifix jean shorts +1 pitchfork gluten-free chillwave. Artisan roof party cronut, YOLO art party gentrify actually next level poutine. Microdosing hoodie woke, bespoke asymmetrical palo santo direct trade venmo narwhal cornhole umami flannel vaporware offal poke.
+## Methodology:
+* Collect and clean player performance data from various sources such as NBA
+  statistics and player tracking data.
+* Develop a model using C++ and Python to analyze the performance data and
+  predict optimal rest periods for each player.
+* This model will be based on Machine learning algorithms like Random Forest,
+  XGBoost, Neural Network and will be implemented using libraries like
+Scikit-learn and Tensorflow.
+* Evaluate the performance of the model using metrics such as accuracy and
+  precision.
+* Use the model to predict rest periods for players on a given schedule of
+opponents.
 
-* Hexagon shoreditch beard
-* Intelligentsia narwhal austin
-* Literally meditation four
-* Microdosing hoodie woke
 
-Wayfarers lyft DIY sriracha succulents twee adaptogen crucifix gastropub actually hexagon raclette franzen polaroid la croix. Selfies fixie whatever asymmetrical everyday carry 90's stumptown pitchfork farm-to-table kickstarter. Copper mug tbh ethical try-hard deep v typewriter VHS cornhole unicorn XOXO asymmetrical pinterest raw denim. Skateboard small batch man bun polaroid neutra. Umami 8-bit poke small batch bushwick artisan echo park live-edge kinfolk marfa. Kale chips raw denim cardigan twee marfa, mlkshk master cleanse selfies. Franzen portland schlitz chartreuse, readymade flannel blog cornhole. Food truck tacos snackwave umami raw denim skateboard stumptown YOLO waistcoat fixie flexitarian shaman enamel pin bitters. Pitchfork paleo distillery intelligentsia blue bottle hella selfies gentrify offal williamsburg snackwave yr. Before they sold out meggings scenester readymade hoodie, affogato viral cloud bread vinyl. Thundercats man bun sriracha, neutra swag knausgaard jean shorts. Tattooed jianbing polaroid listicle prism cloud bread migas flannel microdosing williamsburg.
+Here is a sample schema:
 
-Echo park try-hard irony tbh vegan pok pok. Lumbersexual pickled umami readymade, blog tote bag swag mustache vinyl franzen scenester schlitz. Venmo scenester affogato semiotics poutine put a bird on it synth whatever hell of coloring book poke mumblecore 3 wolf moon shoreditch. Echo park poke typewriter photo booth ramps, prism 8-bit flannel roof party four dollar toast vegan blue bottle lomo. Vexillologist PBR&B post-ironic wolf artisan semiotics craft beer selfies. Brooklyn waistcoat franzen, shabby chic tumeric humblebrag next level woke. Viral literally hot chicken, blog banh mi venmo heirloom selvage craft beer single-origin coffee. Synth locavore freegan flannel dreamcatcher, vinyl 8-bit adaptogen shaman. Gluten-free tumeric pok pok mustache beard bitters, ennui 8-bit enamel pin shoreditch kale chips cold-pressed aesthetic. Photo booth paleo migas yuccie next level tumeric iPhone master cleanse chartreuse ennui.
+Data Collection:
+ * Gather data on NBA players and teams from publicly available sources such as NBA.com or other sports data APIs.
+ * Store the data in a database or CSV file for easy access.
+ * The data should include information on player statistics, games played, injury history, and rest schedules.
+ * Clean and pre-process the data to remove any missing values or outliers.
+ 
+Data Analysis:
+ * Analyze the data using Python libraries such as Pandas, Matplotlib, and Seaborn to understand the relationships between player statistics, rest schedules, and injury history.
+ * Identify any correlations or patterns in the data that may be useful in optimizing rest schedules for players.
+ * Visualize the data to gain insights into player performance and rest schedules.
+ 
+Machine Learning Model Development:
+ * Use the processed data to train a machine learning model in Python using libraries such as Scikit-learn or TensorFlow.
+ * The model should be a supervised learning model that predicts the optimal rest schedules for players based on their performance, injury history, and other factors.
+ * Evaluate the performance of the model using metrics such as accuracy, precision, recall, and F1 score.
+ 
+Model Deployment:
+ * Integrate the trained model into a C++ application to allow for real-time optimization of rest schedules for players.
+ * The C++ application should provide a user-friendly interface for inputting player data and receiving recommended rest schedules.
+ * The C++ application should also be able to communicate with the database or file storage to retrieve and update player data.
+ 
+Ongoing Maintenance:
+ * Continuously monitor the performance of the model and make updates as needed.
+ * Gather feedback from stakeholders, including coaches, trainers, and players, and incorporate their feedback into the model.
+ * Continuously update the database with new player and team data to keep the model up-to-date.
+
+This schema outlines the steps necessary to build a machine learning model that optimizes rest schedules for NBA players. With the right data and proper implementation, this model can help teams improve player performance, reduce injury risk, and maximize their overall success.
+
+## Expected Outcomes and Measurables:
+Because mindful rest schedules are a newer idea in basketball, there is not a lot of previously-recorded rest schedules through which I can see if my model is on the right track. However, there does exist some data within the past 5-6 years that can be used as a baseline comparison for the model. I am still figuring out how I can test the optimization aspect of the model (which will hoepfully come to me as I work through more strictly defining the model as a whole). Otherwise, I think that success would look like having a model that gather, interacts with, and utilizes all of the different categorical data in the game of basketball.
+
+* Improved performance and reduced injury risk for individual players on the
+  team.
+* A model that can be used to optimize rest schedules for other teams in the
+  league.
+* Improved understanding of the factors that affect player performance and the
+  role of rest in maintaining peak performance.
+
+## Timeline:
+
+* Data collection and cleaning: 3 weeks
+* Model development and debugging: 5 weeks
+* Model evaluation and improvement: 2 weeks
+* Deployment: 3 weeks
+
+## Background Materials/Resources:
+For Tangible Statistics:
+* https://www.nbastuffer.com/2022-2023-nba-rest-days-stats/ (NBA per team rest day stats)
+* https://www.nbastuffer.com/2022-2023-nba-player-stats/ (NBA per player stats)
+* https://www.nba.com/stats/players/boxscores-traditional (NBA per game, per player advanced box scores)
+
+For Rest Day Background Research:
+* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107769/ (Injury Risk in the NBA)
+* https://journals.sagepub.com/doi/pdf/10.1177/23259671221121116 (Condensed Schedule Argument)
+* https://repository.ihu.edu.gr/xmlui/bitstream/handle/11544/29991/Georgios%20Papageorgiou%20Dissertation%20Data%20Mining%20in%20Sports.pdf?sequence=1 (Data Mining for Player Performance Predictions)
+* https://www.tandfonline.com/doi/epdf/10.1080/24751839.2021.1977066?needAccess=true&role=button (ML in NBA Predictions)
+
