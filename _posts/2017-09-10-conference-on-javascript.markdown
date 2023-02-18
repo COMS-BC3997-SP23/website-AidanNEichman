@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Feb 20 Post Update
-date: 2023-02-20 00:00:00 +0300
-description: # Add post description (optional)
+date: 2023-02-18 00:00:00 +0300
 img: js-1.png # Add image post (optional)
 ---
-##Project Update: Switching from NBA to MLB Umpire Bias
+Project Update: Switching from NBA to MLB Umpire Bias
 
 After careful consideration and consultation Dr. Plancher, I have decided to switch my research proposal from NBA-rest-focused to MLB umpire bias. The new project aims to investigate, categorize, and utilize biases among MLB home plate umpires (pitch type, location, arm angle, release point, weather, umpire crouch height, etc.).
 
