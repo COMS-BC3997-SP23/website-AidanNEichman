@@ -2,7 +2,7 @@
 layout: post
 title: Feb 20 Post Update
 date: 2023-02-18 00:00:00 +0300
-img: js-1.png # Add image post (optional)
+img: umpire.jpg # Add image post (optional)
 ---
 Project Update: Switching from NBA to MLB Umpire Bias
 
