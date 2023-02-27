@@ -16,3 +16,5 @@ With all the necessary data at my disposal, I want to begin to plan out my algor
 One of the challenges I faced was figuring out how to deal with missing data. In any dataset, there are bound to be some missing values, and it's important to have a plan in place for how to handle them. The main aspect for the data that I need to figure out is how to get the umpire names in the dataset, which shouldn't be hard with a hashmap. 
 
 Overall, I am pleased with the progress I have made on this project so far. By finding a pre-existing database with the data I needed, I was able to overcome a significant hurdle in the project and move forward with building the model. 
+
+* The csv file of the data is in the GitHub.
