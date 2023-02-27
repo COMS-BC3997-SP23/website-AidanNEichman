@@ -3,8 +3,6 @@ layout: post
 title: Feb 27 Post Update
 date: 2023-02-27 00:00:00 +0300
 description: 
-
-fig-caption: # Add figcaption (optional)
 ---
 
 ### Project Update: Scraping Progress and Movement Toward Algorithmic Implementation
