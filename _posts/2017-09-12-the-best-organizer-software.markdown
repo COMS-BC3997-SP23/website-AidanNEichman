@@ -17,4 +17,4 @@ One of the challenges I faced was figuring out how to deal with missing data. In
 
 Overall, I am pleased with the progress I have made on this project so far. By finding a pre-existing database with the data I needed, I was able to overcome a significant hurdle in the project and move forward with building the model. 
 
-* The csv file of the data is in the GitHub.
+* The csv file of the data is too big for GitHub.
