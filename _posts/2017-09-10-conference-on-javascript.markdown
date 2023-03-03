@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mar 6 Post Update
-date: 2023-03-06 00:00:00 +0300
+date: 2023-03-02 00:00:00 +0300
 description: 
 ---
 
