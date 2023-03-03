@@ -2,7 +2,6 @@
 layout: post
 title: March 6 Post Update
 date: 2023-03-06 00:00:00 +0300
-description: 
 ---
 
 ### Project Update: Nearly finished with the csv file and headway on NN implementation
