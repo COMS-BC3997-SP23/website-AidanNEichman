@@ -1,7 +1,8 @@
 ---
 layout: post
-title: March 6 Post Update
-date: 2023-03-06 00:00:00 +0300
+title: Mar 6 Post Update
+date: 2023-02-27 00:00:00 +0300
+description: 
 ---
 
 ### Project Update: Nearly finished with the csv file and headway on NN implementation
@@ -14,4 +15,5 @@ This past week, I first realized that my csv file that had the 3 million rows of
 [Incorrect Call Update Program](https://github.com/COMS-BC3997-SP23/website-AidanNEichman/blob/main/update_data_with_incorrect_calls.py)
 
 [Initial NN Model](https://github.com/COMS-BC3997-SP23/website-AidanNEichman/blob/main/nn_model_v1.py)
+
 
