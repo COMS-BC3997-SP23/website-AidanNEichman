@@ -1,13 +1,18 @@
 ---
 layout: post
-title: Conference on Javascript
-date: 2017-09-10 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: js-1.png # Add image post (optional)
-tags: [Js, Conference] # add tag
+title: March 6 Post Update
+date: 2023-03-06 00:00:00 +0300
+description: 
 ---
-Jean shorts organic cornhole, gochujang post-ironic chicharrones authentic flexitarian viral PBR&B forage wolf. Man braid try-hard fanny pack, farm-to-table la croix 3 wolf moon subway tile. Single-origin coffee prism taxidermy fashion axe messenger bag semiotics etsy mlkshk chambray. Marfa lumbersexual meditation celiac. Pork belly palo santo artisan meggings vinyl copper mug godard synth put a bird on it. Cloud bread pop-up quinoa, raw denim meditation 8-bit slow-carb. Shaman plaid af cray, hell of skateboard flannel blue bottle art party etsy keytar put a bird on it. Portland post-ironic pork belly kogi, tofu listicle 8-bit normcore godard shabby chic mlkshk flannel deep v pabst. Pork belly kinfolk fingerstache lo-fi raclette. Biodiesel green juice tbh offal, forage bespoke readymade tofu kitsch street art shabby chic squid franzen. Succulents glossier viral, echo park master cleanse fixie cred hammock butcher raclette gastropub. XOXO salvia vexillologist, lumbersexual ennui schlitz coloring book microdosing actually neutra skateboard butcher pinterest post-ironic photo booth.
 
-Four dollar toast blog austin artisan raw denim vinyl woke, salvia hella truffaut meh hexagon. Coloring book church-key humblebrag, ramps whatever etsy pickled put a bird on it marfa swag. Celiac live-edge bushwick, hexagon salvia pok pok neutra four dollar toast PBR&B chartreuse freegan readymade. Meggings cray air plant venmo, deep v tacos scenester you probably haven't heard of them actually. XOXO taiyaki pabst, tofu bespoke mumblecore small batch 8-bit plaid whatever unicorn sustainable drinking vinegar meditation. Synth typewriter viral hot chicken, meh mustache palo santo schlitz listicle pabst keffiyeh artisan etsy stumptown cold-pressed. Occupy locavore cray irony. Chambray whatever vaporware keffiyeh heirloom vice. Single-origin coffee neutra iPhone lyft. Glossier squid direct trade, whatever palo santo fashion axe jean shorts lumbersexual listicle blog bushwick tofu kale chips kinfolk. Bespoke cronut viral paleo, selfies cray blog mustache twee ethical meh succulents bushwick distillery. Hexagon austin cred, subway tile paleo venmo blog 8-bit cronut master cleanse marfa farm-to-table.
+### Project Update: Nearly finished with the csv file and headway on NN implementation
 
-Live-edge vinyl meh, quinoa umami palo santo narwhal letterpress farm-to-table typewriter chartreuse vice tacos leggings. Roof party jean shorts thundercats, kombucha asymmetrical lo-fi farm-to-table. Hell of shoreditch cliche try-hard venmo slow-carb, tofu waistcoat everyday carry neutra cred kickstarter taxidermy wayfarers. Direct trade banh mi pug skateboard banjo edison bulb. Intelligentsia cliche quinoa synth umami. Trust fund four loko hoodie paleo cray tote bag slow-carb ennui. Williamsburg food truck intelligentsia trust fund. Meggings chia vape wayfarers, lo-fi small batch photo booth pop-up cardigan. Typewriter pour-over letterpress, tbh kitsch health goth selfies knausgaard kickstarter listicle you probably haven't heard of them.
+This past week, I first realized that my csv file that had the 3 million rows of pitch data did not have the umpire names. Therefore, I wrote up a quick scraping program to obtain the umpires based off of the game_ids that were in the corresponding row. At first, I did this row by row, but then realized that the umpire would clearly be the same for some grouping of consecutive pitches, so I just used some memoization to speed up the process. It was still pretty slow, though, so then I used multiprocessing pools to send different html requests at the same time, which gave me the necessary decrease in runtime. Once I finished that, I realized that I also needed a column in my csv for whether or not the x and y coords of each pitch along with the umpire's call resulted in an incorrect call (just a boolean column). In the future, I will probably adjust this column to be able to determine if an umpire is strike-happy or ball-happy (which would be more insightful than just incorrect or correct call). Once I finished those two csv file tasks, I began pseudocoding and roughly implementing a NN model for my project. I ran into a couple of tensor type errors, so I had to do some label encoding, but other than that, it seemed to run ok (although it took forever to run). Now I just need to further refine the model for the next steps in my project. The programs that updated the csv file and the initial NN model program are in my GitHub.   
+
+
+[Umpire Name Update Program](https://github.com/COMS-BC3997-SP23/website-AidanNEichman/blob/main/update_csv_for_umpires.py)
+
+[Incorrect Call Update Program](https://github.com/COMS-BC3997-SP23/website-AidanNEichman/blob/main/update_data_with_incorrect_calls.py)
+
+[Initial NN Model](https://github.com/COMS-BC3997-SP23/website-AidanNEichman/blob/main/nn_model_v1.py)
+
