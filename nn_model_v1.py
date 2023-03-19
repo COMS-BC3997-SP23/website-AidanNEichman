@@ -11,7 +11,6 @@ from sklearn.model_selection import train_test_split
 from keras.utils import to_categorical
 from sklearn.preprocessing import LabelEncoder
 
-
 # read csv
 f = pd.read_csv('pitches_with_umpiress.csv', nrows=99999)
 
