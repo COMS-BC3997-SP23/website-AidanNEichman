@@ -25,13 +25,16 @@ y = f['umpire']
 x = x.replace('--', np.nan)
 x = x.dropna()
 y = y[x.index]
+x_cols = list(x.columns)
 
 # encode umpire names as integers
 encoder = LabelEncoder()
 y = encoder.fit_transform(y)
+feature_importance = model.feature_importances_
 
 # one-hot-encode the Type column
 x = pd.get_dummies(x, columns=['Type'])
+
 
 # split into train and validation sets
 x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=0.2, random_state=42)
@@ -70,4 +73,4 @@ for umpire_name in umpire_names:
     umpire_data = umpire_data.replace('--', np.nan)
     umpire_data = umpire_data.fillna(x.mean())
     umpire_pred = encoder.inverse_transform(np.argmax(model.predict(umpire_data.values.astype(np.float32)), axis=1))[0]
-    print(f"{umpire_name} - Classification: {umpire_pred}")
+    print(f"{umpire_name} - Classification: {umpire_pred}, Most important feature: {x_cols[np.argmax(feature_importance[i])]}")
