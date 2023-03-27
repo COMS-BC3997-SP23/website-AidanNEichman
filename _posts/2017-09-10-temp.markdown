@@ -4,4 +4,6 @@ title: Mar 27 Post Update
 date: 2023-03-25 00:00:00 +0300
 ---
 
-This week, I primarily worked on some more background research for the model, as I reached a point in my implementation where if I looked at it for one more second, I would most likely lose my mind. 
+This week, I primarily worked on some more background research for the model, as I have reached a point in my implementation where if I looked at it for one more second, I would most likely lose my mind. With that said, I have also been looking into newer sports prediction tools (Log5, Singlearity-PA, etc.) in order to see how they handle less quantifiable factors (e.g. park conditions and weather) within their predictions. During this week, I want to move back to working on the implementation of the model and, if I get this far, decipher how I am going to combat overfitting (most likely Data Augmentation, L1/L2 Regularization, or Dropouts). I honestly might try to work with all three at different rounds of implementation just for learning purposes. I think that if I make some significant progress in the implementation of the model, then Iwill be in a pretty good place in terms of pacing. 
+
+Here is a link for Singlearity-PA from MIT Sloan--it is a very, very informative and interesting read.
