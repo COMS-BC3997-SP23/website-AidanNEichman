@@ -5,6 +5,6 @@ date: 2023-04-02 00:00:00 +0300
 description: 
 ---
 
-### Project Update: Development of NN Model 
+### Project Update: Further Development of NN Model 
 
 Over the past week, I have been working on developing a second version of my NN model. Before doing so, I sketched out the area containing and surrounding the strikezone and cut it into 25 sections (from down-and-in to up-and-out, with zones 1-9 as those covering the strikezone), as to specify the pitch location as a more precise variable for the model. Another change is that now this model works with the variables zone and inning number in addition to the original Type and MPH implemented in the original version. Another change, is that now my data is split into 60/20/20 where the 60% is for training, the 20% is for validation, and the last 20% is for accuracy testing. I am still training hte model wiht 100 epochs of batch size 32. Each output model training and evaluation also now outputs the accuracy (most training accuracy is around 94% and the evaluation is around 82%). The next step is to utilize something like SHAP values in order to give visual explanations for the predications of my models (though this is a usually very computationally-expensive task).  
