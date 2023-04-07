@@ -1,0 +1,10 @@
+---
+layout: post
+title: April 10 Post Update
+date: 2023-04-06 00:00:00 +0300
+description: 
+---
+
+### Project Update: A Bit Stuck on Model :/ 
+
+Over the past week, I have been working on further development of my model. I am running into an issue with One Hot Encoding for the pitch type because of inconsistencies in the csv file. If I take out pitch type as a feature, the SHAP values seem to work, but pitch type is, in fact, one of the more important factors for which I want to account. I am going to continue working to get the pitch type to work, but having this as my first real project with ML, I am a bit lost as of now...to Stack Overflow and ChatGPT I go! Otherwise, I think I am making some good progress and am going to start compiling stuff for my presentation soon. 
