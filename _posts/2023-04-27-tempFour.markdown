@@ -9,3 +9,4 @@ description:
 
 This week, I am giving a final presentation over the project. Please see the the slideshow below.
 
+* [Presentation](https://docs.google.com/presentation/d/1CphpTiIDUcg-qMd6TWqkqeQ1PXp5oRa6D8XqETGshOI/edit?usp=sharing)
