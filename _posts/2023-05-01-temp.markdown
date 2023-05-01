@@ -9,4 +9,4 @@ description:
 
 This week, I am ran some final SHAP value tests (as many as I could given how computationally expensive each is). In addition, I have written my final project report and attempted to attach it below.
 
-* [Project Report](https://drive.google.com/drive/recent)
+* [Project Report](https://github.com/COMS-BC3997-SP23/website-AidanNEichman/blob/main/CSP_Final_Paper%20(4).pdf)
